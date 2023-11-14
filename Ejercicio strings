@@ -1,0 +1,42 @@
+palabra = "banana"
+if palabra == "banana":
+    print("Esta bien, banana")
+    
+if palabra < "banana":
+    print("Tu palabra, " + palabra + ", viene antes de banana")
+elif palabra > "banana" :
+        print("Su palabra" + palabra + "viene despues de banana")
+else:
+    print("Esta bien, su palabra es banana")
+
+Cadena = "Hola mundo"
+type(Cadena)
+
+palabra = "banana"
+palabra_nueva = palabra.upper()
+print(palabra_nueva)
+
+palabra = "banana"
+index = palabra.find("a")
+print(index)
+
+cadena= "un uno, un dos, un tres"
+print(cadena.count("un")) #Saca 4, hay 4 "un" en la cadena
+print(cadena.count("un", 10)) # Saca 1, hay 1 "un" a partir de la posicion 10 en la cadena
+print(cadena.count("un", 0, 10))
+
+mensaje1= "hola" + " " + "mundo"
+print(mensaje1)
+
+mensaje2a = "hola " *3
+mensaje2b = "mundo"
+print(mensaje2a + mensaje2b)
+
+data = "De stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008"
+enlaposicion = data.find("@")
+print(enlaposicion)
+
+mensaje3 = "Hola"
+mensaje3 += " "
+mensaje3 += "Mundo"
+print(mensaje3)
